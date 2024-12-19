@@ -31,14 +31,14 @@ function MyComponent() {
     return (
         <div className="card">
             <h2>Order form for motorcycles</h2>
-            <input value={name} onChange={handleNameChange} />
+            <input className="text-input" value={name} onChange={handleNameChange} />
             {/* onChange attribute fires the moment value is changed. Passes event object into
             the first parameter of the function we use in the attribute. */}
             <p> Name: {name}</p>
-            <input value={quantity} onChange={handleQuantityChange} type="number"/>
+            <input className="text-input" value={quantity} onChange={handleQuantityChange} type="number"/>
             <p>Quantity: {quantity}</p>
 
-            <textarea value={comment} onChange={handleCommentChange} placeholder="Enter delivery instructions"/>
+            <textarea className="text-input" value={comment} onChange={handleCommentChange} placeholder="Enter delivery instructions"/>
             <p>Comment: {comment}</p>
 
             <select value={payment} onChange={handlePaymentChange}>

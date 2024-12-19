@@ -6,4 +6,15 @@
   padding: 25px;
   border-color: black;
   font-family: "Roboto";
+  max-width: 500px;
+  
 }
+
+.text-input {
+  width: 100%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  resize: none;
+
+}
+
